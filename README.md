@@ -24,6 +24,7 @@ To install:
 ## Functions
 
 `sa_str(text)`: Returns the suffix array from a string where each char is between 0 and 255.
+
 `sa_utf8(text)`: Returns the suffix array from a UTF-8 string.
 
 `bwt_str(text)`: Returns the Burrows-Wheeler Transform from a string where each char is between 0 and 255.
