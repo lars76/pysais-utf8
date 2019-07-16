@@ -24,7 +24,7 @@ PyMODINIT_FUNC PyInit_sais(void) {
     static struct PyModuleDef moduledef = {
         PyModuleDef_HEAD_INIT,
         "sais",
-        "This module provides a C binding for sais-lite and adds UTF-8 support.",
+        "This module provides a Python binding for sais-lite and adds UTF-8 support.",
         -1,
         module_methods,
         NULL,
