@@ -44,7 +44,6 @@ class TestSais(TestCase):
     def test_unicode(self):
         t = "此数据结构被运用于全文索引、数据压缩算法、以及生物信息学。"
         sa = sa_utf8(t)
-        print(sa)
         matches = sorted(find_all_matches(sa, t, "数"))
 
         self.assertTrue(matches == [1, 14])
